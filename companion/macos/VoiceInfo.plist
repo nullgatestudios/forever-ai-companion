@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key><string>en</string>
 	<key>CFBundleDisplayName</key><string>ForeverAICompanion Voice</string>
 	<key>CFBundleExecutable</key><string>ForeverAICompanionVoice</string>
-	<key>CFBundleIdentifier</key><string>io.github.lucasmenares.ForeverAICompanion.Voice</string>
+	<key>CFBundleIdentifier</key><string>io.github.nullgatestudios.ForeverAICompanion.Voice</string>
 	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
 	<key>CFBundleName</key><string>ForeverAICompanionVoice</string>
 	<key>CFBundlePackageType</key><string>XPC!</string>

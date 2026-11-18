@@ -3,7 +3,7 @@
   "version": "1.11.1",
   "private": true,
   "description": "Forever AI Companion: reads questions from the WoW Forever addon and answers them with an AI.",
-  "repository": "github:lucasmenares/forever-ai-companion",
+  "repository": "github:nullgatestudios/forever-ai-companion",
   "type": "module",
   "engines": {
     "node": ">=22"

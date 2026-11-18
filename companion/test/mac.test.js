@@ -78,15 +78,15 @@ test('the terminal PATH is merged with the usual folders, without repeats', () =
 
 test('pluginkit\'s list of the silent voice is read, with the player\'s choice', () => {
   const out = [
-    '+    io.github.lucasmenares.ForeverAICompanion.Voice(1.11.0)\t8152BD7F-6E3D-4A00-B531-5598B2D0E45B\t2026-11-16 14:02:59 +0000\t/Users/me/Applications/Forever AI Companion.app/Contents/PlugIns/ForeverAICompanionVoice.appex',
-    '-    io.github.lucasmenares.ForeverAICompanion.Voice(1.10.0)\t11111111-6E3D-4A00-B531-5598B2D0E45B\t2026-11-10 10:00:00 +0000\t/Users/me/Downloads/Forever AI Companion.app/Contents/PlugIns/ForeverAICompanionVoice.appex',
+    '+    io.github.nullgatestudios.ForeverAICompanion.Voice(1.11.0)\t8152BD7F-6E3D-4A00-B531-5598B2D0E45B\t2026-11-16 14:02:59 +0000\t/Users/me/Applications/Forever AI Companion.app/Contents/PlugIns/ForeverAICompanionVoice.appex',
+    '-    io.github.nullgatestudios.ForeverAICompanion.Voice(1.10.0)\t11111111-6E3D-4A00-B531-5598B2D0E45B\t2026-11-10 10:00:00 +0000\t/Users/me/Downloads/Forever AI Companion.app/Contents/PlugIns/ForeverAICompanionVoice.appex',
     '     com.other.Thing(2.0)\t22222222-6E3D-4A00-B531-5598B2D0E45B\t2026-11-10 10:00:00 +0000\t/Applications/Other.app/Contents/PlugIns/X.appex',
     ' (3 plug-ins)',
   ].join('\n');
   const list = parsePluginkit(out);
   assert.equal(list.length, 3);
   assert.deepEqual(list[0], {
-    election: '+', id: 'io.github.lucasmenares.ForeverAICompanion.Voice', version: '1.11.0',
+    election: '+', id: 'io.github.nullgatestudios.ForeverAICompanion.Voice', version: '1.11.0',
     path: '/Users/me/Applications/Forever AI Companion.app/Contents/PlugIns/ForeverAICompanionVoice.appex',
   });
   assert.equal(list[1].election, '-');

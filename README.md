@@ -1,3 +1,5 @@
+> **Fork notice:** this is an independently maintained fork of [lucasmenares/forever-ai-companion](https://github.com/lucasmenares/forever-ai-companion) (MIT). Releases and updates here come from this fork only.
+
 <p align="center">
   <img src="companion/assets/icon-256.png" width="128" alt="Forever AI Companion">
 </p>
@@ -10,9 +12,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lucasmenares/forever-ai-companion/releases/latest/download/ForeverAICompanion.exe"><b>⬇ Download for Windows</b></a>
+  <a href="https://github.com/nullgatestudios/forever-ai-companion/releases/latest/download/ForeverAICompanion.exe"><b>⬇ Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/lucasmenares/forever-ai-companion/releases/latest/download/ForeverAICompanion-mac.zip"><b>⬇ Download for Mac</b></a>
+  <a href="https://github.com/nullgatestudios/forever-ai-companion/releases/latest/download/ForeverAICompanion-mac.zip"><b>⬇ Download for Mac</b></a>
 </p>
 
 <p align="center"><sub>The addon is also on <a href="https://www.curseforge.com/wow/addons/forever-ai-companion">CurseForge</a>, but you still need the app: it's the one that talks to the AI.</sub></p>
@@ -79,7 +81,7 @@ You get an assistant with personality: **Fizzi**, a gnome inventor, for the Alli
 
 ### 1. Download and open the app
 
-1. Download [**ForeverAICompanion.exe**](https://github.com/lucasmenares/forever-ai-companion/releases/latest/download/ForeverAICompanion.exe).
+1. Download [**ForeverAICompanion.exe**](https://github.com/nullgatestudios/forever-ai-companion/releases/latest/download/ForeverAICompanion.exe).
 2. Double-click the file.
 
 > **Does "Windows protected your PC" appear?** That's normal for new programs that don't have a digital signature yet. Click **More info** and then **Run anyway**.
@@ -108,7 +110,7 @@ If the game was open, **close it completely and open it again** (`/reload` is no
 
 The Mac app works exactly like the Windows one, invisible sending included. Requirements: macOS 13 Ventura or later, on Apple silicon or Intel.
 
-1. Download [**ForeverAICompanion-mac.zip**](https://github.com/lucasmenares/forever-ai-companion/releases/latest/download/ForeverAICompanion-mac.zip) and double-click it: you get **Forever AI Companion**.
+1. Download [**ForeverAICompanion-mac.zip**](https://github.com/nullgatestudios/forever-ai-companion/releases/latest/download/ForeverAICompanion-mac.zip) and double-click it: you get **Forever AI Companion**.
 2. Open it. The first time macOS says it can't check it for malware (the app isn't notarized by Apple yet): click **Done**, then go to **System Settings › Privacy & Security**, scroll down and click **Open Anyway** next to *Forever AI Companion*. You only do this once.
 3. The app moves itself to the **Applications** folder of your user (no password needed) and opens its window. Follow the same setup as on Windows.
 

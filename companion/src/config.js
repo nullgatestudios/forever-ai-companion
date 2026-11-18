@@ -32,7 +32,7 @@ export const envVar = (name) => process.env[`FAIC_${name}`] || process.env[`AZIA
 
 // Published guide: the same file as knowledge-builtin/wow-forever.md, read from
 // the project's public repository. Editing it there updates every player.
-export const GUIDE_URL = 'https://raw.githubusercontent.com/lucasmenares/forever-ai-companion/main/companion/knowledge-builtin/wow-forever.md';
+export const GUIDE_URL = 'https://raw.githubusercontent.com/nullgatestudios/forever-ai-companion/main/companion/knowledge-builtin/wow-forever.md';
 
 export const DEFAULTS = {
   // WoW Forever folder (the one that contains Interface/ and Screenshots/).
