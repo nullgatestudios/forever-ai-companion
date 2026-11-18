@@ -8,7 +8,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const REPO = 'lucasmenares/forever-ai-companion';
+export const REPO = 'nullgatestudios/forever-ai-companion';
 export const RELEASES_API = `https://api.github.com/repos/${REPO}/releases/latest`;
 export const WINDOWS_ASSET = 'ForeverAICompanion.exe';
 export const MAC_ASSET = 'ForeverAICompanion-mac.zip';

@@ -10,7 +10,7 @@ import { APP_ID, roamingDir } from './config.js';
 import { VOICE_NAME } from './tts-voice.js';
 import { bundlePath, exec, nativeHelper, runNative } from './app/system.js';
 
-export const VOICE_EXTENSION_ID = 'io.github.lucasmenares.ForeverAICompanion.Voice';
+export const VOICE_EXTENSION_ID = 'io.github.nullgatestudios.ForeverAICompanion.Voice';
 // Read by the extension (macos/Voice.swift): while it exists, no voice is offered.
 export const voiceOffFlag = () => path.join(roamingDir(), APP_ID, 'voice-off');
 const PLUGINKIT = '/usr/bin/pluginkit';

@@ -148,7 +148,7 @@ final class SilentVoiceUnit: AVSpeechSynthesisProviderAudioUnit {
             // The addon looks for a voice whose name starts with "ForeverAICompanion".
             let v = AVSpeechSynthesisProviderVoice(
                 name: "ForeverAICompanion",
-                identifier: "io.github.lucasmenares.ForeverAICompanion.voice",
+                identifier: "io.github.nullgatestudios.ForeverAICompanion.voice",
                 primaryLanguages: ["en-US"],
                 supportedLanguages: ["en-US", "en-GB", "es-ES", "es-MX", "es-US", "pt-BR", "fr-FR", "de-DE", "it-IT"])
             v.gender = .female

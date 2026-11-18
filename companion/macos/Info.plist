@@ -6,7 +6,7 @@
 	<key>CFBundleDisplayName</key><string>Forever AI Companion</string>
 	<key>CFBundleExecutable</key><string>ForeverAICompanion</string>
 	<key>CFBundleIconFile</key><string>AppIcon</string>
-	<key>CFBundleIdentifier</key><string>io.github.lucasmenares.ForeverAICompanion</string>
+	<key>CFBundleIdentifier</key><string>io.github.nullgatestudios.ForeverAICompanion</string>
 	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
 	<key>CFBundleLocalizations</key><array><string>en</string><string>es</string></array>
 	<key>CFBundleName</key><string>Forever AI Companion</string>

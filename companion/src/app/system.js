@@ -32,7 +32,7 @@ export const isPackaged = () => {
 export const isWindows = process.platform === 'win32';
 export const isMac = process.platform === 'darwin';
 export const APP_BUNDLE = `${DISPLAY_NAME}.app`;
-export const BUNDLE_ID = 'io.github.lucasmenares.ForeverAICompanion';
+export const BUNDLE_ID = 'io.github.nullgatestudios.ForeverAICompanion';
 
 const programsDir = () => path.join(process.env.LOCALAPPDATA || path.join(os.homedir(), 'AppData', 'Local'), 'Programs');
 // macOS: the user's own Applications folder (no administrator needed).
